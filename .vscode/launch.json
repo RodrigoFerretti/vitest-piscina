@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run current .test.ts file",
+            "command": "yarn vitest run --dir tests ${relativeFile}",
+            "request": "launch",
+            "type": "node-terminal",
+            "env": {
+                "NODE_ENV": "test",
+            }
+        }
+    ]
+}
